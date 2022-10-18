@@ -34,7 +34,6 @@ const Feed = () => {
       >
         <Paper
           sx={{
-            overflowY: "scroll",
             maxWidth: '100vw',
             pt: '10px',
             pb: '10px',
