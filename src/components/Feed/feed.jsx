@@ -12,7 +12,7 @@ const Feed = () => {
     useContext(AuthGoogleContext)
 
   const [realTimeposts, error] = useCollection(
-    db.collection('postsVideos').orderBy('hora', 'desc')
+    db.collection('postsVideos').orderBy('data', 'desc')
   )
 
 
